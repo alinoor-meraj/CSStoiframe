@@ -1,6 +1,5 @@
 setTimeout(function() {
-		const sheets = document.styleSheets;
-		const myframe = document.getElementById("twitter-widget-0");
+		const myframe = document.getElementById("IFRAME_ID");
 		//console.log(myframe.contentWindow.document.head);
 		const link = document.createElement("link");
 		link.href = "YOUR_CSS_FILE_LINK";
